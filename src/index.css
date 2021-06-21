@@ -1,0 +1,57 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05rem;
+}
+
+#container {
+    margin: 10px;
+}
+
+/* Nav bar */
+#nav-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar hr {
+    width: 100%;
+}
+
+/* Items */
+#catalogue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 220, 0.308);
+}
+
+.item:hover {
+    background-color: rgba(245, 245, 220, 0.11);
+}
+
+.item-display {
+    padding-bottom: 50px;
+}
